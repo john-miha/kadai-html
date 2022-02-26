@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+/*
+ *レイアウトした要素のボックスモデルがよくわかるように、各要素に背景色をつける
+ *要素	背景色
+ *header	#ffcccc
+ *#main	#ccffcc
+ *#menu	#ccccff
+ *footer	#ffccff
+ *ブラウザのウィンドウを縮小した場合も、#mainが700px、#menuは300pxで表示されるようにする
+ *header、footerの横幅は、1000pxとする
+*/
+
+
+header {
+    background-color: #ffcccc;
+    width: 1000px;
+    margin: 0;
+}
+
+#wrapper {
+    display: flex;
+    width: 1000px;
+    margin: 0;
+}
+
+#main {
+    width: 700px;
+    background-color: #ccffcc;
+}
+
+#menu {
+    width: 300px;
+    background-color: #ccccff;
+}
+
+footer {
+    background-color: #ffccff;
+    width:1000px;
+    margin: 0;
+}
